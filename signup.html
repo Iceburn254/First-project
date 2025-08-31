@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+  <title> Sign up page</title>
+</head>
+<body>
+  
+  <div class="row" no-gutters>
+
+    <div class="col" no-gutters>
+      <div class="leftside"></div>
+
+    </div>
+
+    <div class="col" no-gutters>
+      <div class="rightside">
+
+        <h1>Create an account</h1>
+        <p class="p1">Already have an account?<a href="index.html">Log in</a></p>
+
+        <form action="#" method="post">
+
+          <label for="username">User name
+            <input type="text" id="username" for="username">
+          </label>
+          <label for="email">Email address
+            <input type="email" id="email" name="email">
+          </label>
+          <div class="pass-input">
+          <label for="password" class="pass-label">Password
+            <div class="hide-icon">
+              <img src="myassets/hide.png" alt="hide icon">
+              <span>Hide</span>
+            </div>
+            <input type="password" id="password" name="user password">
+          </label>
+          </div>
+          <p class="pass-caption">Use 8 or more characters with a mix of letters,numbers & symbols</p>
+        </form>
+        <p>By creating an account,you agree to our <br> <a href="">Terms of use</a> and <a href="">Privacy policy</a></p>
+
+        <div class="check-box">
+          <input type="checkbox" id="accept">
+          <label for="accept">I'm not a robot</label>
+          <img src="myassets/recaptcha-icon.png" alt="captcha">
+        </div>
+
+        <button class="create-button">Create an account</button>
+
+        <p class="p2">Already have an account? <a href="index.html">Log in</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
